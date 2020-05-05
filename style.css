@@ -1,52 +1,50 @@
-.wrapper{
-    max-width: 960px;
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+.wrapper {
+    width: 70%;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.br {
+    border-radius: 25px;
+}
+
+.m-auto {
     margin: 0 auto;
 }
 
-header{
+.text-center {
     text-align: center;
 }
 
-header img{
-    width: 250px;
-    margin: 10px 0;
+#logo {
+    display: block;
+    width: 200px;
 }
 
-header nav{
-    background-color: green;
-    padding: 20px 0;
-}
-
-header nav a{
-    color: white;
+nav a {
     text-decoration: none;
-    padding: 0 50px;
+    color: black;
+    padding: 0 20px;
+    font-family: Arial;
 }
 
-section{
-    padding: 30px;
+.p-20 {
+    padding: 20px;
 }
 
-section h2{
-    background-color: green;
-    color: white;
-    padding: 10px;
-    margin: 0;
+.m-20 {
+    margin: 20px;
 }
 
-#about{
-    background-color: #eee;
-}
-
-#contact{
-    background-color: lightgreen;
-}
-
-.slideshow img{
+#apieMus img {
     width: 100%;
-    margin-bottom: 20px;
-}
+    max-width: 100%;
+    background-size: cover;
 
-p:last-child{
-    margin-bottom: 0;
 }
