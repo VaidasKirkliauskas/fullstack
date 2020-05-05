@@ -46,5 +46,12 @@ nav a {
     width: 100%;
     max-width: 100%;
     background-size: cover;
+}
 
+.card {
+    width: 200px;
+}
+
+.card img {
+    max-width: 100%;
 }
