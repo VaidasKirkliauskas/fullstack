@@ -1,131 +1,39 @@
 body {
-    background-color: #333F48;
+    background-image: url("https://images.unsplash.com/photo-1519331379826-f10be5486c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.wrapper {
-    max-width: 1024px;
-    margin: 0 auto;
-}
-
-header {
-    background-color: #FF4700;
-    color: white;
-    overflow: auto;
-}
-
-.title, .menu {
+h1 {
     text-align: center;
 }
 
-.menu {
-    padding: 10px 0;
-}
-
-.menu a {
-    padding: 0 20px;
-    color: white;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    text-decoration: underline;
-}
-
-section {
-    padding: 50px 12px;
-    background-color: white;
-    border-bottom: 1px solid black;
-}
-
-#apie img {
-    width: 250px;
-    height: auto;
-}
-
-.content {
-    display: inline-block;
-    width: 715px;
-    margin-left: 30px;
-    vertical-align: top;
-    text-align: center;
-}
-
-.content p {
-    margin-top: 0;
+input {
     margin-bottom: 20px;
-    text-align: justify;
 }
 
-.content a {
-    background-color: black;
-    padding: 15px;
-    border-radius: 10px;
-    color: white;
-}
-
-#tvarkarastis table {
+input, textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
     width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
+    padding: 0;
 }
 
-#tvarkarastis table td {
-    padding: 10px;
-    border: 1px solid #ccc;
-    text-align: center;
+form {
+    padding: 20px;
+    background-color: white;
+    width: 30%;
+    margin: 50px auto 0;
 }
 
-#tvarkarastis table td:first-child {
-    font-weight: bold;
-}
-
-#tvarkarastis table thead th {
-    font-size: 1.6em;
-    background-color: #EA9F26;
-    color: white;
-    padding: 10px;
-    text-align: left;
-}
-
-#tvarkarastis td a {
-    color: #AB230D;
-}
-
-#filosofija {
-    text-align: center;
-}
-
-#filosofija cite {
-    margin-bottom: 10px;
-}
-
-#filosofija cite span {
+label, input {
     display: block;
 }
 
-#kontaktai {
-    padding-bottom: 0;
-    border: 0;
-}
-
-#kontaktai img {
-    max-width: 100%;
-}
-
-footer {
-    text-align: center;
-    margin: 10px 0;
+.send {
+    border-bottom: none;
     color: white;
-    opacity: 0.5;
-}
-
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-
-.table, tr, th, td {
-    border: 1px solid black;
-    text-align: center;
+    background-color: black;
+    width: 100px;
 }
