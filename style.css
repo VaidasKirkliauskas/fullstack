@@ -1,39 +1,84 @@
-body {
-    background-image: url("https://images.unsplash.com/photo-1519331379826-f10be5486c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-    background-repeat: no-repeat;
+body, h2 {
+    margin: 0;
+}
+
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: rgb(219, 222, 230);
+}
+
+header img, nav {
+    display: inline-block;
+    height: 50px;
+}
+
+nav {
+    float: right;
+    padding: 20px;
+}
+
+nav a {
+    padding: 0 10px;
+    color: red;
+}
+
+.yamahaPhoto {
+    height: 400px;
+    background-image: url("images/bike-rider.jpg");
     background-size: cover;
+    background-position: center;
 }
 
-h1 {
+h2 {
+    background-color: rgba(240, 52, 52, 0.5);
+    width: 215px;
+    padding: 15px 10px;
+}
+
+.card {
+    background-color: rgb(243, 246, 248);
+    width: 20%;
+    padding: 20px;
     text-align: center;
+    display: inline-block;
 }
 
-input {
-    margin-bottom: 20px;
+.card img {
+    max-width: 100%;
 }
 
-input, textarea {
-    border-top: none;
-    border-left: none;
-    border-right: none;
+form input, textarea {
+    display: block;
     width: 100%;
-    padding: 0;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.formButton {
+    border: 3px solid red;
+    padding: 10px;
+    width: 150px;
+}
+
+form, iframe {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+}
+
+iframe {
+    height: 400px;
 }
 
 form {
-    padding: 20px;
-    background-color: white;
-    width: 30%;
-    margin: 50px auto 0;
+    float: left;
 }
 
-label, input {
-    display: block;
-}
-
-.send {
-    border-bottom: none;
-    color: white;
-    background-color: black;
-    width: 100px;
+footer {
+    text-align: center;
+    padding: 10px;
 }
