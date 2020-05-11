@@ -1,44 +1,53 @@
-body {
-    background-color: black;
-    box-sizing: border-box;
+*{
+    text-align: center;
 }
 
 section {
-    background-color: white;
-    width: 600px;
-    margin: 100px auto 0;
-}
-form {
-    background-color: grey;
-    padding: 20px 80px;
+
+    background-color: rgb(200,200,255);
+    /*background-image: url("https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");*/
+    /*opacity: 0.1;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
-h2 {
-    text-decoration: underline;
-    text-align: center;
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
 }
 
-label, input, textarea {
-    margin: 10px;
-    display: inline-block;
+.rad, .inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-label {
-    width: 30%;
+.rad {
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
-input, textarea {
-    width: 55%;
+.inside {
+    border: 5px solid red;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
-input[type="radio"] {
-    width: 10px;
+.cards {
+    display: flex;
+    justify-content: center;
 }
 
-.button {
-    text-align: center;
-}
-
-input[type="button"] {
-    width: 20%;
+.card {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
 }
