@@ -32,6 +32,11 @@ header {
     background-color: #311E25;
 }
 
+.hover2 {
+    display: none;
+    z-index: 1;
+}
+
 nav {
     flex: 2;
     display: flex;
@@ -85,11 +90,6 @@ ul li {
     position: relative;
 }
 
-.hover2 {
-    display: none;
-    z-index: 1;
-}
-
 .hover1:hover .hover2 {
     position: absolute;
     display: block;
@@ -133,4 +133,51 @@ h1 {
 
 .t-color-b {
     color: black;
+}
+
+.comments {
+    display: flex;
+    width: 200%;
+}
+
+.block-70 {
+    width: 40%;
+}
+
+.opacity{
+    opacity: 0.4;
+}
+
+.a100 {
+    overflow: hidden;
+    width: 100%;
+}
+
+.bendras {
+    padding: 0 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gallery {
+    background-color: green;
+    height: 800px;
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+.gallery-btn {
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid #db9a64;
+    padding: 15px 50px;
+}
+
+.gallery-col{
+    flex: 1;
+    text-align: center;
 }
